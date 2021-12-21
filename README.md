@@ -32,11 +32,6 @@
     <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> MongoDB URI </a>
 </p>
 
-<h2 align="center">
-   Stay Up-to-Date
-</h2>
-
-<p align="center"><img src="https://github.com/rioprojectx/tgmusic/blob/main/Utils/star.gif" alt="RioProjectX Github" width="1000px" /></p>
 
 
 
