@@ -52,15 +52,6 @@ shikhar@MacBook~ $ pip3 install -U -r requirements.txt
 shikhar@MacBook~ $ cp sample.env .env
 ```
 
-<h3 align="center">
-    Edit <b>.env</b> with your own values and Run Bot
-</h3>
-
-```console
-shikhar@MacBook~ $ bash start
-```
-![alt text](https://github.com/notreallyshikhar/YukkiMusicBot/blob/main/Utils/screen.png)
-
 
 <h2 align="center">
    Other Deployment Methods
