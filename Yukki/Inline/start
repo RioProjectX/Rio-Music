@@ -55,7 +55,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"t.me/riogroupsupport"
                 ),
             ],
         ]
@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"t.me/rioprojects"
                 ),
             ],
         ]
@@ -93,10 +93,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"t.me/rioprojects"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"t.me/riogroupsupport"
                 ),
             ],
         ]
@@ -177,7 +177,7 @@ def private_panel():
                     text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨Source Code", url=f"https://github.com/rioprojectx/rio-music"
                 ),
             ],
         ]
