@@ -27,19 +27,19 @@ __HELP__ = """
 Only for Sudo Users. 
 
 
-/addsudo [Username or Reply to a user]
+/addmsudo [Username or Reply to a user]
 - To Add A User In Bot's Sudo Users.
 
 /delsudo [Username or Reply to a user]
 - To Remove A User from Bot's Sudo Users.
 
-/restart 
+/restartmusic 
 - Restart Bot [All downloads, cache, raw files will be cleared too]. 
 
 /maintenance [enable / disable]
 - When enabled Bot goes under maintenance mode. No one can play Music now!
 
-/update 
+/updatemusic
 - Fetch Updates from Server.
 
 /clean
@@ -48,7 +48,7 @@ Only for Sudo Users.
 # Add Sudo Users!
 
 
-@app.on_message(filters.command("addsudo") & filters.user(OWNER_ID))
+@app.on_message(filters.command("addmsudo") & filters.user(OWNER_ID))
 async def useradd(_, message: Message):
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -127,7 +127,7 @@ async def userdel(_, message: Message):
     await message.reply_text(f"Something wrong happened.")
 
 
-@app.on_message(filters.command("sudolist"))
+@app.on_message(filters.command("msudolist"))
 async def sudoers_list(_, message: Message):
     sudoers = await get_sudoers()
     text = "⭐️<u> **Owners:**</u>\n"
@@ -162,7 +162,7 @@ async def sudoers_list(_, message: Message):
 # Restart Yukki
 
 
-@app.on_message(filters.command("restart") & filters.user(SUDOERS))
+@app.on_message(filters.command("restartmusic") & filters.user(SUDOERS))
 async def theme_func(_, message):
     A = "downloads"
     B = "raw_files"
@@ -220,7 +220,7 @@ async def maintenance(_, message):
 ## Gban Module
 
 
-@app.on_message(filters.command("gban") & filters.user(SUDOERS))
+@app.on_message(filters.command("mgban") & filters.user(SUDOERS))
 async def ban_globally(_, message):
     if not message.reply_to_message:
         if len(message.command) < 2:
@@ -333,7 +333,7 @@ async def unban_globally(_, message):
     if not message.reply_to_message:
         if len(message.command) != 2:
             await message.reply_text(
-                "**Usage:**\n/ungban [USERNAME | USER_ID]"
+                "**Usage:**\n/unmgban [USERNAME | USER_ID]"
             )
             return
         user = message.text.split(None, 1)[1]
