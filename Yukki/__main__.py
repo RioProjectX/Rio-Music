@@ -119,13 +119,6 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-I'm Telegram Voice Chat Audio with some useful features.
-
-All commands can be used with: / """
-
-
 @app.on_message(filters.command("help") & filters.private)
 async def help_command(_, message):
     text, keyboard = await help_parser(message.from_user.mention)
@@ -210,10 +203,6 @@ async def start_command(_, message):
                 reply_markup=key,
             )
     out = private_panel()
-    return await message.reply_text(
-        home_text_pm,
-        reply_markup=InlineKeyboardMarkup(out[1]),
-    )
 
 
 async def help_parser(name, keyboard=None):
@@ -277,13 +266,6 @@ All commands can be used with: /
             text=text,
             reply_markup=key,
             disable_web_page_preview=True,
-        )
-    elif home_match:
-        out = private_panel()
-        await app.send_message(
-            query.from_user.id,
-            text=home_text_pm,
-            reply_markup=InlineKeyboardMarkup(out[1]),
         )
         await query.message.delete()
     elif prev_match:
