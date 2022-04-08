@@ -101,9 +101,9 @@ shikhar@MacBook~ $ python3 gen_session.py
 </h2>
 
 <p align="center">
-<a href="https://t.me/RIoprojects"><img src="https://img.shields.io/badge/Yukki%20Channel-blueviolet?style=for-the-badge&logo=telegram" width="200""/</a>
+<a href="https://t.me/RIoprojects"><img src="https://img.shields.io/badge/Rio%20Channel-blueviolet?style=for-the-badge&logo=telegram" width="200""/</a>
 <a href="https://t.me/fckualot"><img src="https://img.shields.io/badge/Contact%20Owner-blueviolet?style=for-the-badge&logo=telegram" width="202""/</a>  
-<a href="https://t.me/riogroupsupport"><img src="https://img.shields.io/badge/Yukki%20Support-blueviolet?style=for-the-badge&logo=telegram" width="195""/></a>
+<a href="https://t.me/riogroupsupport"><img src="https://img.shields.io/badge/Rio%20Support-blueviolet?style=for-the-badge&logo=telegram" width="195""/></a>
 </p>
 
 
