@@ -62,7 +62,7 @@ shikhar@MacBook~ $ cp sample.env .env
 </h2>
 
 <p align="center">
-<a href="https://replit.com/@AaravxD/PyroStringSession#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a>
+<a href="https://replit.com/@RioProjectX/stringen-2#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a>
  </p>  
 
 <h3 align="center">
